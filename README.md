@@ -5,6 +5,7 @@ An input file provides the following datas : the surface of an area, the initial
 <ul>
 <li>Requirements : python 3.9</li>
 <li>Inside the project's folder, execute the program "test.py" with "input.txt" argument : <i> $python test.py input.txt </i></li>
+<li>You will find the output of the program in the terminal.</li>
 </ul>
 
 <h2>ALGO :</h2>

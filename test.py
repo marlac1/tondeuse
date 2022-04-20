@@ -22,8 +22,8 @@ for i in new_datas:
     print(f"{x}{y}{tondeuse.final_orientation()}")
 
 
-#UNITARY TESTS
-file_datas = id.InputDatas()
+#UNITARY TESTS -> have to be moved from excluded test file
+"""file_datas = id.InputDatas()
 input_file = file_datas.find_input_file()
 datas = file_datas.read_and_return_all_datas(input_file)
 surface = file_datas.read_and_return_all_datas(input_file)[0]
@@ -38,4 +38,4 @@ for i in new_datas:
     instruction = i[3]
     tondeuse = t.Tondeuse(x, y, orientation, instruction, surface)
     x, y = tondeuse.get_x_get_y()
-    print(f"{x}{y}{tondeuse.final_orientation()}")
+    print(f'{x}{y}{tondeuse.final_orientation()}')"""
