@@ -2,8 +2,10 @@
 An input file provides the following datas : the surface of an area, the initial position and orientation of mowers and instructions to move them. The program aims to return mower's final position and orientation. 
 
 <h2>INSTRUCTIONS</h2>
-- Requirements : python 3.9
-- Inside the project's folder, execute the program "test.py" with "input.txt" argument : <i> $python test.py input.txt </i>
+<ul>
+<li>Requirements : python 3.9</li>
+<li>Inside the project's folder, execute the program "test.py" with "input.txt" argument : <i> $python test.py input.txt </i></li>
+</ul>
 
 <h2>ALGO :</h2>
 I divided the program into two classes representing the mower "Tondeuse" and input datas "InputDatas".
