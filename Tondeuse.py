@@ -24,6 +24,7 @@ class Tondeuse(object):
                 else:
                     k = new_all_orientations[-1]
         all_orientations.append("A")
+        return all_orientations
 
 
     def set_k(self, all_orientations, k):
@@ -31,6 +32,7 @@ class Tondeuse(object):
             all_orientations[-1] = k
         else:
             all_orientations.append(k)
+        return all_orientations
 
 
     #returns a list of characters : orientations (values from compass) and "A" instructions
@@ -98,6 +100,7 @@ class Tondeuse(object):
                 elif str_instructions[j] == "W":
                     self.x -= 1
                     break
+        return self.x, self.y
 
     #returns final mower's position, self.x and self.y
     #input : list of orientations
