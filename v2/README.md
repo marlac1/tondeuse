@@ -4,7 +4,7 @@ An input file provides the following datas : the surface of an area, the initial
 <h2>INSTRUCTIONS</h2>
 <ul>
 <li>Requirements : python 3.9</li>
-<li>Inside the project's folder, execute the program "test_updated.py" with "input.txt" argument : <i> $python test_updated.py input.txt </i>. "Test_updated.py" is the last version of my answer to the technical test.</li>
+<li>Inside the project's v2 folder, execute the program "test_updated.py" with "input.txt" argument : <i> $python test_updated.py input.txt </i>. "Test_updated.py" is the last version (v2) of my answer to the technical test.</li>
 <li>You will find the output of the program in the terminal.</li>
 </ul>
 
